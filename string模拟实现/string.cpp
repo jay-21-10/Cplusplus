@@ -125,12 +125,9 @@ namespace myStr
 		return sub;
 	}
 
-	string& string::operator=(const string& str)
+	string& string::operator=(string tmp)
 	{
-		if (this == &str) return *this;
-
-		//Ê¹ÓÃ¿½±´¹¹ÔìÈ¥Éî¿½±´
-		string tmp(str._str);
+		
 		swap(tmp);
 
 		/*delete[] _str;
