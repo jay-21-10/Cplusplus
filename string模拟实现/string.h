@@ -93,7 +93,7 @@ namespace myStr
 		size_t find(const char* str, size_t pos = 0)const;
 		string substr(size_t pos = 0, size_t len = npos)const;
 
-		string& operator=(const string& str);
+		string& operator=(string str);
 
 	private:
 		char* _str = nullptr;
