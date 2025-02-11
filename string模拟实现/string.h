@@ -19,7 +19,7 @@ namespace myStr
 		}
 
 /*
- *		ÊÖ¶¯Éî¿½±´
+ *		æ‰‹åŠ¨æ·±æ‹·è´
  		string(const string& str)
 		{
 			_str = new char[str._capacity + 1];
@@ -28,7 +28,7 @@ namespace myStr
 			_capacity = str._capacity;
 		}
 	*/ 
-		//ÀûÓÃ¿½±´¹¹ÔìÈ¥Éî¿½±´
+		//åˆ©ç”¨æ‹·è´æ„é€ å»æ·±æ‹·è´
 		void swap(string& str)
 		{
 			std::swap(_str, str._str);
@@ -124,7 +124,7 @@ namespace myStr
 	{
 		str.clear();
 
-		//ÉèÖÃ»º´æÇø£¬ÓÅ»¯À©ÈİÎÊÌâ
+		//è®¾ç½®ç¼“å­˜åŒºï¼Œä¼˜åŒ–æ‰©å®¹é—®é¢˜
 		const int N = 256;
 		char buff[N];
 		int i = 0;
