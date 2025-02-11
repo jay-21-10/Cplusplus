@@ -129,7 +129,7 @@ namespace myStr
 	{
 		if (this == &str) return *this;
 
-		//使用拷贝构造去深拷贝
+		//脢鹿脫脙驴陆卤麓鹿鹿脭矛脠楼脡卯驴陆卤麓
 		string tmp(str._str);
 		swap(tmp);
 
